@@ -13,7 +13,9 @@
         xorg.libX11.dev
         cmake
         gcc
+        github-cli
         (callPackage ./languages/zig.nix { })
     ]);
-    runScript = "zeditor";
+
+    runScript = "bash";
 }).env
