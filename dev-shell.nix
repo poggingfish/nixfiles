@@ -7,6 +7,8 @@
         clippy
         clang
         clang-tools
+        nixd
+        nil
    	    mold
         pkg-config
         xorg.libX11
