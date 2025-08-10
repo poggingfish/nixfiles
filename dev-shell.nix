@@ -9,7 +9,7 @@
         clang-tools
         nixd
         nil
-   	    mold
+   	mold
         pkg-config
         xorg.libX11
         xorg.libX11.dev
@@ -17,6 +17,7 @@
         gcc
         github-cli
         (callPackage ./languages/zig.nix { })
+        (callPackage ./languages/zls.nix { })
     ]);
 
     runScript = "bash";
