@@ -18,6 +18,7 @@
         github-cli
         (callPackage ./languages/zig.nix { })
         (callPackage ./languages/zls.nix { })
+	m4
     ]);
 
     runScript = "bash";
